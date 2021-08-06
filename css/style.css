@@ -96,8 +96,90 @@ body{
     height: 474px;
     padding: 8px;
     box-shadow: 5px 5px 5px gray;
+    border-radius: 3px;
 }
 .content-container img{
     width: 300px;
     height: 256px;
+}
+
+/* Live video section css */
+
+.live-video-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:30px 30px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.live-video-container .one-part h1{
+    font-weight: bold;
+    font-size: 48px;
+    color: #0A0826;
+    /* margin-left: 156px; */
+}
+.live-video-container .one-part p{
+    font-size: 14px;
+    color:  #6C6C6C;
+
+}
+.button-area{
+    margin-top: 35px;
+}
+.live-video-container .one-part i{
+    padding-left: 8px;
+}
+
+
+.live-video-container .one-part .button{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    height: 44px;
+    width: 168px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 3px;
+    margin-top: 20px;
+    
+}
+.live-video-container .one-part .button:hover{
+    background-color: white;
+    color: blue;
+    transition: all ease-in-out 1s;
+}
+
+.another-part{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+/* last section css */
+
+footer{
+    width: 30%;
+    margin: 0 auto;
+    height: 213px;
+    margin-top: 320px;
+    margin-bottom: 30px;
+}
+
+.last-section .logo img{
+    width: 480px;
+    height: 110px;
+    text-align: center;
+}
+.last-section .icons{
+    text-align: center;
+    margin-top: 20px;
+}
+.last-section .icons i{
+    padding-right: 30px;
+    font-size: 20px;
+}
+.last-section .last-line{
+    text-align: center;
+    font-size: 18px;
 }
